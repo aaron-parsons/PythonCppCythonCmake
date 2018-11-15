@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+project (the_cpp_part)
+include_directories(.)
+add_library(foo Foo.cpp)
+add_executable (main main.cpp)
+target_link_libraries (main LINK_PUBLIC foo)

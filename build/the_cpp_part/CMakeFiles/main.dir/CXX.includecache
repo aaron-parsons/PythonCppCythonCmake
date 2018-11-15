@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/clb02321/DAWN_nightly/CppCUDAPlay/the_cpp_part/Foo.h
+iostream
+-
+
+/home/clb02321/DAWN_nightly/CppCUDAPlay/the_cpp_part/main.cpp
+stdio.h
+-
+stdlib.h
+-
+Foo.h
+/home/clb02321/DAWN_nightly/CppCUDAPlay/the_cpp_part/Foo.h
+
