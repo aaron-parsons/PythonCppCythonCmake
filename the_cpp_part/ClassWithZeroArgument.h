@@ -7,12 +7,14 @@
 #include <iostream>
 
 
-class Foo
+class ClassWithZeroArgument
 {
 private:
 	int num;
 public:
-	Foo(int n);
+	ClassWithZeroArgument(){
+		num=1;
+	}
 	void do_something();
 	void do_something_else();
 };

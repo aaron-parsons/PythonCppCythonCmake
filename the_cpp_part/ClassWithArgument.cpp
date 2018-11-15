@@ -5,18 +5,18 @@
  *      Author: clb02321
  */
 
-#include "Foo.h"
+#include "ClassWithArgument.h"
 
 using namespace std;
 
 
-Foo::Foo(int n): num(n) {}
+ClassWithArgument::ClassWithArgument(int n): num(n) {};
 
-void Foo::do_something() {
+void ClassWithArgument::do_something() {
 	cout << "hello world\n";
 }
 
 
-void Foo::do_something_else() {
+void ClassWithArgument::do_something_else() {
 	cout << "good bye world \n";
 }

@@ -7,10 +7,13 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "Foo.h"
+#include "ClassWithArgument.h"
+#include "ClassWithZeroArgument.h"
 
 int main() {
-	Foo foo(2);
+	ClassWithArgument foo2(1);
+	ClassWithZeroArgument foo;
+	foo2.do_something();
 	foo.do_something();
 	return 0;
 }
