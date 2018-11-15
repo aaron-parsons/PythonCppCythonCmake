@@ -10,7 +10,7 @@
 using namespace std;
 
 
-ClassWithArgument_c::ClassWithArgument_c(int n): num(n) {};
+extern "C" ClassWithArgument_c::ClassWithArgument_c(int n): num(n) {};
 
 void ClassWithArgument_c::do_something() {
 	cout << "hello world\n";

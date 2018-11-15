@@ -12,9 +12,6 @@ from Cython.Build import cythonize
 import numpy as np
 import os
 
-libdirs = [os.path.abspath('the_cpp_part'), os.path.abspath('build/the_cpp_part')]
-if 'LD_LIBRARY_PATH' in os.environ:
-    libdirs += os.environ['LD_LIBRARY_PATH'].split(':')
 
 
 
@@ -30,14 +27,18 @@ class BuildExtra(setuptools.command.build_ext.build_ext):
         setuptools.command.build_ext.build_ext.run(self)
         print "COMPLETED BUILD EXT"
 
+libdirs = [os.path.abspath('the_cpp_part'), os.path.abspath('build/the_cpp_part')]
+
+if 'LD_LIBRARY_PATH' in os.environ:
+    libdirs += os.environ['LD_LIBRARY_PATH'].split(':')
+print "The libdirs are:",libdirs
 
 extension = Extension('*',
-                      sources=['the_cpp_part/cpp_extension.pyx'],
-                      include_dirs=[np.get_include()],
-                      libraries=['the_cpp_part/ClassWithArgument', 'the_cpp_part/ClassWithZeroArgument'],
+                      sources=['the_python_part/MyClassLibrary.pyx'],
+                      include_dirs=[np.get_include(), 'the_cpp_part'],
+                      libraries=['MyClassLibrary'],
                       library_dirs=libdirs,
-                      depends=['build/the_cpp_part/libClassWithArgument.a',
-                               'build/the_cpp_part/libClassWithZeroArgument.a'],
+                      depends=['build/the_cpp_part/libMyClassLibrary.a',],
                       language="c++")
 
 
