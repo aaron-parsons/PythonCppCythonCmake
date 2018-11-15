@@ -9,13 +9,12 @@
 
 using namespace std;
 
-ClassWithZeroArgument::ClassWithZeroArgument(void);
 
 void ClassWithZeroArgument::do_something() {
-	cout << "hello world\n";
+	cout << "hello world with zero argument\n";
 }
 
 
 void ClassWithZeroArgument::do_something_else() {
-	cout << "good bye world \n";
+	cout << "good bye world with zero argument \n";
 }

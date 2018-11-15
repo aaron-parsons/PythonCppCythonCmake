@@ -13,7 +13,7 @@ private:
 	int num;
 public:
 	ClassWithZeroArgument(){
-		num=1;
+		num=1; // seems like we always need a field somewhere
 	}
 	void do_something();
 	void do_something_else();
