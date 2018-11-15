@@ -11,8 +11,8 @@
 #include "ClassWithZeroArgument.h"
 
 int main() {
-	ClassWithArgument foo2(1);
-	ClassWithZeroArgument foo;
+	ClassWithArgument_c foo2(1);
+	ClassWithZeroArgument_c foo;
 	foo2.do_something();
 	foo.do_something();
 	return 0;

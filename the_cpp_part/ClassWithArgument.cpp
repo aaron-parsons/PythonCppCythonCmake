@@ -10,13 +10,13 @@
 using namespace std;
 
 
-ClassWithArgument::ClassWithArgument(int n): num(n) {};
+ClassWithArgument_c::ClassWithArgument_c(int n): num(n) {};
 
-void ClassWithArgument::do_something() {
+void ClassWithArgument_c::do_something() {
 	cout << "hello world\n";
 }
 
 
-void ClassWithArgument::do_something_else() {
+void ClassWithArgument_c::do_something_else() {
 	cout << "good bye world \n";
 }
