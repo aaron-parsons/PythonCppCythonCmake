@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c11e6db6-2bf8-40e5-a794-252822965210" name="Default" comment="" />
+    <list default="true" id="c11e6db6-2bf8-40e5-a794-252822965210" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_cpp_part/ClassWithArgument.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/the_cpp_part/ClassWithArgument.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_cpp_part/ClassWithArgument.h" beforeDir="false" afterPath="$PROJECT_DIR$/the_cpp_part/ClassWithArgument.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_cpp_part/ClassWithZeroArgument.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/the_cpp_part/ClassWithZeroArgument.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_cpp_part/ClassWithZeroArgument.h" beforeDir="false" afterPath="$PROJECT_DIR$/the_cpp_part/ClassWithZeroArgument.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_cpp_part/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/the_cpp_part/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the_python_part/cpp_extension.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/the_python_part/MyClassLibrary.pyx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +24,8 @@
       <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="73" lean-forward="true" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+            <state relative-caret-position="697">
+              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
               <folding>
                 <element signature="e#38#81#0" expanded="true" />
               </folding>
@@ -23,11 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cpp_extension.pyx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/the_python_part/cpp_extension.pyx">
+      <file leaf-file-name="MyClassLibrary.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/the_python_part/MyClassLibrary.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="611" column="4" selection-start-line="611" selection-end-line="612" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyClassLibrary.pyx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/the_python_part/MyClassLibrary.pyx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -41,11 +60,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/the_python_part/cpp_extension.pyx.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/the_python_part/cpp_extension.pxd" />
         <option value="$PROJECT_DIR$/the_python_part/cpp_extension.pyx" />
+        <option value="$PROJECT_DIR$/the_cpp_part/cpp_extension.pyx" />
         <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
@@ -56,12 +81,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1918" />
     <option name="y" value="25" />
     <option name="width" value="1924" />
     <option name="height" value="1154" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -74,6 +100,16 @@
             <path>
               <item name="CppCUDAPlay" type="b2602c69:ProjectViewProjectNode" />
               <item name="CppCUDAPlay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CppCUDAPlay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CppCUDAPlay" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CppCUDAPlay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CppCUDAPlay" type="462c0819:PsiDirectoryNode" />
+              <item name="the_cpp_part" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CppCUDAPlay" type="b2602c69:ProjectViewProjectNode" />
@@ -91,6 +127,16 @@
     <property name="last_opened_file_path" value="/dls_sw/apps/python/anaconda/1.7.0/64/bin/python2.7" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/the_python_part" />
+      <recent name="$PROJECT_DIR$/the_cpp_part" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/the_python_part" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,14 +164,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1918" y="25" width="1924" height="1154" extended-state="7" />
-    <editor active="true" />
+    <frame x="1918" y="25" width="1924" height="1154" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -158,17 +203,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/the_python_part/cpp_extension.pyx">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_python_part/cpp_extension.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_cpp_part/ClassWithZeroArgument.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_python_part/cpp_extension.pxd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/the_cpp_part/libClassWithZeroArgument.a">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_cpp_part/cpp_extension.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_cpp_part/ClassWithZeroArgument.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_cpp_part/ClassWithArgument.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_python_part/MyClassLibrary.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="611" column="4" selection-start-line="611" selection-end-line="612" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_python_part/MyClassLibrary.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="73" lean-forward="true" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+        <state relative-caret-position="697">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
           <folding>
             <element signature="e#38#81#0" expanded="true" />
           </folding>
